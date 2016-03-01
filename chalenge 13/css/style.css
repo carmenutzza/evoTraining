@@ -1,0 +1,87 @@
+.wrapper-shadow {
+  -webkit-box-shadow: 10px 10px 36px 8px #363c5e;
+  -moz-box-shadow: 10px 10px 36px 8px #363c5e;
+  box-shadow: 10px 10px 36px 8px #363c5e;
+}
+.border-radius {
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+}
+.vertical-align {
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+body {
+  background: #363c5e;
+  color: #555555;
+  line-height: 40px;
+  font-family: 'News Cycle', sans-serif;
+}
+body h1,
+body h3 {
+  color: #ffffff;
+}
+.wrapper {
+  width: 50%;
+  background: #ffffff;
+  -webkit-box-shadow: 10px 10px 36px 8px #363c5e;
+  -moz-box-shadow: 10px 10px 36px 8px #363c5e;
+  box-shadow: 10px 10px 36px 8px #363c5e;
+  margin: 0 auto;
+  height: 350px;
+}
+.wrapper h1 {
+  color: #ff6900;
+  font-size: 70px;
+  font-stretch: condensed;
+  font-weight: 100;
+}
+.wrapper p {
+  color: #555555;
+}
+.color {
+  background-color: #ff6900;
+  height: 350px;
+}
+.color h3 {
+  font-size: 29px;
+}
+.big {
+  font-size: 30px;
+  margin: 0;
+}
+img {
+  width: auto;
+  height: 350px;
+}
+.text-center {
+  text-align: center;
+}
+pull-right {
+  float: right;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.padding {
+  padding: 3% 10% 6%;
+  line-height: 25px;
+}
+img.brand {
+  max-width: 100px;
+  height: auto;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  padding: 3%;
+}

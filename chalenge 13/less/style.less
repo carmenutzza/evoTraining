@@ -1,0 +1,82 @@
+// out: ../css/style.css
+// main: style.less
+
+@import 'variable';
+@import 'elements.less';
+
+body {
+  background: @bd-color;
+  color:@gray;
+  line-height: @bd-line-height;
+  font-family:@font-family;
+
+  h1, h3 {
+    color: @main-color;
+  }
+}
+
+.wrapper{
+  width: @wrapper-width;
+  // min-height: @wrapper-height;
+  // .vertical-align;
+  background: @main-color;
+  .wrapper-shadow;
+  margin: 0 auto;
+  height: 350px;
+
+  h1 {
+    color: @color-sec;
+    font-size: 70px;
+    font-stretch: condensed;
+    font-weight: 100;
+  }
+  p {
+    color: @color;
+
+
+  }
+}
+.color {
+  background-color: @color-sec;
+  height: 350px;
+  h3 {
+    font-size: 29px;
+  }
+}
+
+.big {
+  font-size: 30px;
+  margin: 0;
+}
+
+img {
+  width: auto;
+  height: 350px;
+}
+
+.text-center {
+  text-align: center;
+}
+pull-right {
+  float: right;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.padding {
+  padding: 3% 10% 6%;
+  line-height: 25px;
+}
+
+img.brand {
+    max-width: 100px;
+    height: auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  padding: 3%;
+}

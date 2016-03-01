@@ -1,0 +1,49 @@
+// out: ../css/style.css
+// main: style.less
+
+@import 'variable';
+
+body {
+  background: @bd-color;
+}
+
+.wrapper{
+  width: @wrapper-width;
+  // min-height: @wrapper-height;
+  .vertical-align;
+  background: @wrapper-color;
+}
+
+.content {
+  width:@content-width;
+  height: @content-height;
+  margin: 0 auto;
+  line-height: @content-line-height;
+  padding: 10px 0;
+
+  h1 {
+    padding: @padding-top-bottom;
+    color: @gray-base;
+    text-transform: uppercase;
+  }
+
+  span {
+    color: @gray-light;
+  }
+}
+
+.grey {
+  background:@gray-lighter;
+  .content {
+    h1 {
+      color:@gray;
+    }
+  }
+}
+
+.subtitle {
+    color: #B84B5C;
+    font-size: 20px;
+    line-height: 20px;
+    padding-right: 20%;
+}

@@ -1,0 +1,80 @@
+// out: ../css/style.css
+// main: style.less
+
+@import 'variable';
+@import 'mixins';
+
+body {
+  background: @bd-background;
+  background-size: @background-size;
+}
+
+.wrapper{
+  width: @wrapper-width;
+  min-height: @wrapper-height;
+  .vertical-align;
+  margin: 0 auto;
+
+}
+
+.content {
+  width:@content-width;
+  height: @content-height;
+  margin: 0 5%;
+  // text-align: @text-middle;
+  line-height: @content-line-height;
+  padding: @container-padding;
+  background: @wrapper-color;
+  float: left;
+  position: relative;
+}
+
+button {
+  background-color: @gray-light;
+  color: @wrapper-color;
+  border-radius: @btn-radius;
+  padding: @btn-padding;
+  margin: @btn-margin;
+}
+
+.padding {
+    padding:5%;
+}
+
+p,
+span {
+    padding:0 5%;
+}
+
+.pull-left {
+    float:left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.thik {
+    border-top: solid 1px #000;
+}
+
+.text-right {
+    text-align: right;
+}
+
+i.fa {
+    margin: 2% 8%;
+  }
+
+.bottom {
+  position:absolute;
+  width: 77%;
+  bottom:20px;
+}
+
+.hour,
+.color {
+  color:@gray-light;
+  font-size: 15px;
+  line-height: 15px;
+}

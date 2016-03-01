@@ -1,0 +1,141 @@
+.border-radius {
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+}
+.vertical-align {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.width {
+  width: 30px;
+  min-height: 1px;
+}
+.border-bottom {
+  border-bottom: solid #555555 1px;
+}
+.subtitle {
+  color: #B84B5C;
+  font-size: 20px;
+}
+.author {
+  color: #000000;
+}
+p.big {
+  font-size: 50px;
+  margin: 10px;
+}
+.middle {
+  margin: 0 auto;
+}
+.text-middle {
+  text-align: center;
+}
+.pull-right {
+  float: right;
+}
+.negative-margin {
+  margin: 20px -15px;
+}
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+body {
+  background: /* top, transparent #C068EC, faked with gradient */ linear-gradient(rgba(122, 0, 255, 0.45), rgba(201, 0, 255, 0.45)), /* bottom, image */ url(../img/city-lights-1156946.jpg);
+  color: #555555;
+  line-height: 40px;
+}
+.wrapper {
+  width: 40%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  padding: 0 3%;
+}
+.content {
+  width: 80%;
+  height: 90%;
+  margin: 0 auto;
+  line-height: 10px;
+  padding: 10px 0;
+  line-height: 40px;
+}
+.content h1,
+.content h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
+.content input[type=text] {
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+.content span {
+  color: #777777;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+}
+.content button {
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  display: block;
+  padding: 10px;
+  margin: 0 auto;
+}
+p {
+  color: #777777;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+}
+.small {
+  width: 10%;
+}
+select {
+  background: transparent;
+  width: auto;
+  padding: 2px;
+  font-weight: 300;
+  font-size: 20px;
+  color: #ff0000;
+}
+.select-div {
+  width: 170px;
+  height: 30px;
+  overflow: hidden;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+  -webkit-border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+  -moz-border-radius-bottomright: 0;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-topleft: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+select > option {
+  background: #ffffff;
+}
+.grey {
+  background: #eeeeee;
+}
+.grey .content h1 {
+  color: #555555;
+}

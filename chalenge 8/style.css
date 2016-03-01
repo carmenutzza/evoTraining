@@ -1,0 +1,62 @@
+.menu {
+  background-color: #000;
+  color: #fff;
+}
+
+.test {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+    font-weight: 800;
+}
+
+.search {
+  background-color: transparent;
+  border-style: solid;
+  border-width: 0 1px 0 0;
+  border-color: #818181;
+  outline: 0;
+  line-height: 2;
+  color: #fff;
+}
+
+.search-bar {
+    height: 29px;
+    background-color: #e1e1e1;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    border-color: #818181;
+    outline: 0;
+    line-height: 2;
+    color: #fff;
+    /*-moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;*/
+	position:relative;
+    width:100px
+    }
+
+.search-bar .searchbutton {
+    position:absolute;
+	/*top:23%;*/
+	right:5px;
+  width: 30%;
+    }
+
+.sfield {
+    float: left;
+    margin: 5px 0 0 8px;
+    font: 8pt Verdana;
+    color: #888;
+    height: 20px;
+    line-height: 18px;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    max-width: 125px
+    }

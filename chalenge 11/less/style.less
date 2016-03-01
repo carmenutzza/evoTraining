@@ -1,0 +1,72 @@
+// out: ../css/style.css
+// main: style.less
+
+@import 'variable';
+@import 'mixins';
+
+body {
+  background: @bd-background;
+  background-size: @background-size;
+}
+
+.wrapper{
+  width: @wrapper-width;
+  min-height: @wrapper-height;
+  .vertical-align;
+  background: @wrapper-color;
+}
+
+.content {
+  width:@content-width;
+  height: @content-height;
+  margin: 0 auto;
+  text-align: @text-middle;
+  line-height: @content-line-height;
+  padding: @container-padding;
+
+  h2 {
+    text-transform: uppercase;
+    color: @gray;
+    margin: 20%;
+  }
+
+  h1, h2 {
+    padding: @padding-top-bottom;
+    // color: @gray-dark;
+    font-family: @font-family;
+  }
+
+  p {
+    color: @gray;
+  }
+
+  span {
+    color: @gray-light;
+  }
+}
+
+button {
+  background-color: @btn-color;
+  color: @wrapper-color;
+  border-radius: @btn-radius;
+  padding: @btn-padding;
+  margin: @btn-margin;
+  border: none;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 20px;
+    left: 28%;
+  }
+
+a {
+  color: @btn-ahref-color;
+}
+
+.over-bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30%;
+}

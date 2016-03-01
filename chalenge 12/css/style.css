@@ -1,0 +1,83 @@
+.vertical-align {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.subtitle {
+  color: #B84B5C;
+  font-size: 20px;
+}
+.author {
+  color: #000000;
+}
+.big {
+  font-size: 20px;
+}
+.pull-right {
+  float: right;
+}
+.negative-margin {
+  margin: 20px -15px;
+}
+body {
+  background: #31374c;
+  background-size: 1920px 1080px;
+}
+.wrapper {
+  width: 80%;
+  min-height: 80%;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin: 0 auto;
+}
+.content {
+  width: 40%;
+  height: 700px;
+  margin: 0 5%;
+  line-height: 10px;
+  padding: 40px;
+  background: #ffffff;
+  float: left;
+  position: relative;
+}
+button {
+  background-color: #777777;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 7px 20px;
+  margin: 5px;
+}
+.padding {
+  padding: 5%;
+}
+p,
+span {
+  padding: 0 5%;
+}
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+.thik {
+  border-top: solid 1px #000;
+}
+.text-right {
+  text-align: right;
+}
+i.fa {
+  margin: 2% 8%;
+}
+.bottom {
+  position: absolute;
+  width: 77%;
+  bottom: 20px;
+}
+.hour,
+.color {
+  color: #777777;
+  font-size: 15px;
+  line-height: 15px;
+}

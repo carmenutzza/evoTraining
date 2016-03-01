@@ -1,0 +1,82 @@
+@bd-color:  /* top, transparent #C068EC, faked with gradient */ linear-gradient( rgba(122, 0, 255, 0.45), rgba(201, 0, 255, 0.45) ), /* bottom, image */ url(../img/city-lights-1156946.jpg);
+@bd-line-height: 40px;
+
+@wrapper-width: 40%;
+@wrapper-height: 70%;
+
+@content-padding:10px 0;
+@content-width: 80%;
+@content-height: 90%;
+@content-line-height: 10px;
+
+
+@span-font-family: 'Lato', sans-serif;
+@span-font-size: 25px;
+@wrapper-color: #fff;
+
+@gray-base:              #000;
+@gray-darker:            lighten(@gray-base, 13.5%); // #222
+@gray-dark:              lighten(@gray-base, 20%);   // #333
+@gray:                   lighten(@gray-base, 33.5%); // #555
+@gray-light:             lighten(@gray-base, 46.7%); // #777
+@gray-lighter:           lighten(@gray-base, 93.5%); // #eee
+@red:                    red;
+@padding-top-bottom: 20px 0;
+
+@input-text-border: 1px solid @gray-base;
+@input-text-width: 70%;
+@input-text-width-small: 30%;
+
+
+.border-radius {
+  -webkit-border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	border-radius: 4px 4px 4px 4px;
+}
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.width{
+  width: 30px;
+  min-height: 1px;
+  }
+
+.border-bottom {
+  border-bottom: solid @gray 1px;
+}
+
+.subtitle {
+  color:#B84B5C;
+  font-size: 20px;
+
+}
+
+.author {
+  color: @gray-base;
+}
+
+p.big  {
+  font-size: 50px;
+  margin:10px;
+}
+
+.middle {
+  margin:0 auto;
+}
+
+.text-middle {
+  text-align: center;
+}
+
+.pull-right {
+  float:right;
+}
+
+.negative-margin {
+  margin: 20px -15px;
+}
